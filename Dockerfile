@@ -2,7 +2,7 @@ FROM tswetnam/xpra:bionic
 
 USER root
 
-# GDAL, GEOS, GRASS, QGIS, SAGA-GIS dependencies
+# GDAL, GEOS, GRASS, QGIS, SAGA-GIS dependencies 
 RUN apt-get update \
     && apt-get install -y build-essential software-properties-common \
     && apt-get install -y --no-install-recommends --no-install-suggests \
